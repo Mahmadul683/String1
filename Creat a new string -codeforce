@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{char S[1001],T[1001];
+scanf("%s %s",&S,&T);
+int lengthS=strlen(S);
+int lengthT=strlen(T);
+
+printf("%d %d\n",lengthS,lengthT);
+printf("%s %s",S,T);
+
+return 0;
+
+}
